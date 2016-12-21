@@ -5,8 +5,10 @@
 #include <iostream>
 #include <vector>
 
+
 using namespace std;
 using namespace boost::property_tree;
+
 
 int main(int argc, char **argv){
 	vector<int> a;
@@ -27,7 +29,7 @@ int main(int argc, char **argv){
 	}
 
 	ptree pways = pt.get_child("Mission");
-	BOOST_FOREACH()
+	//BOOST_FOREACH()
 
 	string value = pways.data();
 	cout << value << endl;
